@@ -8,32 +8,35 @@ theme = "hugo-serif-theme"
   google_analytics_id=""
 
   [params.homepage_meta_tags]
-    meta_description = "Serif is a beautiful small business theme for Hugo (Static Site Generator). It contains content types for the archetypical small business website. The theme is fully responsive, blazing fast and artfully illustrated."
-    meta_og_title = "Hugo Serif Theme"
+    meta_description = "美国香港保险对比咨询"
+    meta_og_title = "香港保险"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-serif.netlify.com"
+# TODO Required Domain Name
+    meta_og_url = ""
+# TODO Register Logo
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
+# TODO Description 
     meta_og_description = "Serif is a beautiful small business theme for Hugo (Static Site Generator). It contains content types for the archetypical small business website. The theme is fully responsive, blazing fast and artfully illustrated."
     meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+    meta_twitter_site = ""
+    meta_twitter_creator = ""
 
 [[menu.main]]
-	name = "Services"
+	name = "我们的服务"
 	url = "/services/"
     weight = 1
 
 [[menu.main]]
-    name = "Team"
+    name = "团队"
     url = "/team/"
     weight = 2
 
 [[menu.main]]
-	name = "Testimonials"
+	name = "客户反馈"
 	url = "/testimonials/"
 	weight = 3
 
 [[menu.main]]
-    name = "Contact"
+    name = "联系我们"
     url = "/contact/"
     weight = 4
